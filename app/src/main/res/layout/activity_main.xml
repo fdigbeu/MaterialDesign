@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/width_16_dp"
+    tools:context="lveapp.fr.materialdesign.View.Activities.MainActivity">
+
+    <Button
+        android:id="@+id/formLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_16_dp"
+        android:layout_margin="@dimen/width_5_dp"
+        android:text="@string/formLoginPassword"/>
+
+    <Button
+        android:id="@+id/bottomSheets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_16_dp"
+        android:layout_margin="@dimen/width_5_dp"
+        android:text="@string/bottomSheets"/>
+
+    <Button
+        android:id="@+id/navigationDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_16_dp"
+        android:layout_margin="@dimen/width_5_dp"
+        android:text="@string/navigationDrawer"/>
+
+    <Button
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/width_16_dp"
+        android:layout_margin="@dimen/width_5_dp"
+        android:text="@string/bottomNavigation"/>
+
+
+</LinearLayout>

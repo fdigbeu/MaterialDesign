@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lveapp.fr.materialdesign.View.Activities.BottomSheetsActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnShowSheets"
+            android:text="@string/showBottomSheets"/>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutBottomSheets"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="@dimen/width_0_dp"
+        app:elevation="@dimen/width_5_dp"
+        android:background="@color/colorAccentOld"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHideSheets"
+            android:text="@string/hideBottomSheets"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtContent"
+            android:text="@string/contentSheets"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_20_sp"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

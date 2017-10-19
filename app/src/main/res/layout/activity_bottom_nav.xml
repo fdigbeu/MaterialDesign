@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lveapp.fr.materialdesign.View.Activities.BottomNavActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/width_60_dp">
+
+        <TextView
+            android:id="@+id/textContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_20_sp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/contentNav_1"
+            android:gravity="center"/>
+
+    </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/colorWhite"
+        app:itemTextColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_items"/>
+
+</RelativeLayout>
