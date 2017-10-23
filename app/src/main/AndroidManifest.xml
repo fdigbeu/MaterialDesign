@@ -20,20 +20,20 @@
         </activity>
         <activity
             android:name=".View.Activities.LoginActivity"
-            android:screenOrientation="sensorPortrait"
-            android:label="@string/formLoginPassword"/>
+            android:label="@string/formLoginPassword"
+            android:screenOrientation="sensorPortrait" />
         <activity
             android:name=".View.Activities.BottomSheetsActivity"
-            android:screenOrientation="sensorPortrait"
-            android:label="@string/bottomSheets" />
-        <activity
-            android:name=".View.Activities.NavDrawerActivity"
-            android:screenOrientation="sensorPortrait"
-            android:label="@string/navigationDrawer"/>
+            android:label="@string/bottomSheets"
+            android:screenOrientation="sensorPortrait" />
         <activity
             android:name=".View.Activities.BottomNavActivity"
-            android:screenOrientation="sensorPortrait"
-            android:label="@string/bottomNavigation" />
+            android:label="@string/bottomNavigation"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".View.Activities.NavDrawerActivity"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
