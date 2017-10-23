@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- When State is TRUE -->
+    <item android:state_activated="true" android:color="@color/colorWhite" />
+    <item android:state_selected="true" android:color="@color/colorWhite" />
+    <item android:state_checked="true" android:color="@color/colorWhite" />
+    <item android:state_checked="true" android:color="@color/colorWhite" />
+    <!-- When State is FALSE -->
+    <item android:state_activated="false" android:color="@color/colorWhiteOpacity30" />
+    <item android:state_selected="false" android:color="@color/colorWhiteOpacity30" />
+    <item android:state_checked="false" android:color="@color/colorWhiteOpacity30" />
+    <item android:state_checked="false" android:color="@color/colorWhiteOpacity30" />
+</selector>
