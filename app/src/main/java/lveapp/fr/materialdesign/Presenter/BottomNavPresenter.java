@@ -1,7 +1,9 @@
 package lveapp.fr.materialdesign.Presenter;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.MenuItem;
+import android.view.View;
 
 import lveapp.fr.materialdesign.R;
 import lveapp.fr.materialdesign.View.Interfaces.BottomNavView;
