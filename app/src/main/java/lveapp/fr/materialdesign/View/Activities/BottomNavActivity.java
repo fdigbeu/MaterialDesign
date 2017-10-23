@@ -38,7 +38,7 @@ public class BottomNavActivity extends AppCompatActivity implements BottomNavVie
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 bottomNavPresenter.retrieveUserAction(item, BottomNavActivity.this);
-                return false;
+                return true;
             }
         });
     }
@@ -47,4 +47,5 @@ public class BottomNavActivity extends AppCompatActivity implements BottomNavVie
     public void displayContent(String text) {
         textContent.setText(text);
     }
+
 }
